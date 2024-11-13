@@ -4,7 +4,7 @@ from groq import Groq
 # Add name to the page and icon
 st.set_page_config(page_title="AI chat", page_icon="./media/AIchat.png", layout="centered")
 # page title
-st.title("Mi first st app")
+st.title("My first st app")
 # text input
 name = st.text_input("What's your name?")
 # greetings button
